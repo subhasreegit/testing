@@ -1,0 +1,171 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.container{
+	width:1000px;
+	margin:0 auto;
+}
+
+.header{
+	width:100%;
+	background-color:#dddddd;
+	float:left;
+}
+
+#logo{
+	width:50px;
+	margin-left:30px;
+	margin-top:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.menueBar1{
+	float:right;
+	margin-top:15px;
+}
+
+.menueBar1 li {
+	display:inline-block;
+	margin:10px;
+	list-style:none;
+	text-decoration:none;
+}
+
+li a{
+	text-decoration:none;
+}
+
+li a:hover{
+	background-color:black;
+	color:white;
+	padding:20px;
+}
+
+
+.banner{
+	background-color:#00BFFF;
+	width:100%;
+	float:left;
+	
+}
+
+#leftimage{
+	width:50px;
+	margin-left:30px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+	display:inline-block;
+	float:left;
+}
+
+#rightimage{
+	width:50px;
+	margin:10px;
+	float:right;
+	display:inline-block;
+}
+
+.text1{
+	margin-left:320px;
+	margin-top:20px;
+	color:white;
+	display:inline-block;
+}
+
+.content{
+	float:left;
+	background-color:white;
+	width:100%;
+}
+
+.behindbox{
+	background-color:yellow;
+	width:450px;
+	height:400px;
+	float: left;
+	position:relative;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:30px;
+
+}
+
+.upperbox{
+	background-color:#dab3ff;
+	width:250px;
+	height:300px;
+	position: absolute;
+	top:20px;
+	left:-25px;
+}
+
+.rightside{
+	float: right;	
+}
+
+.box1{
+	width:490px;
+	height:250px;
+	background-color: #f57b11;
+	margin:10px;
+}
+
+
+.box2{		  
+	display: block;	
+	margin:10px;
+	width:490px;
+	height:140px;	  	
+	background-color:#9efa34;
+}
+
+.list{
+display:inline-block;
+border: 1px solid orange;  
+margin:10px;
+width:50%;
+background-color:#ff9900;
+}
+
+input[type=submit]{
+	width:20%;
+	color:white;
+	font-size:20px;
+}
+
+.footer{	  	
+	background-color: #008080;
+	width:100%;
+	text-align: center;		  
+}
+
+
+.footer #bar2 li:nth-child(1):after , #bar2 li:nth-child(2):after ,#bar2 li:nth-child(3):after
+ { 
+	color: white;   		     	
+	content: "|"; 
+	padding: 10px;	
+}
+
+.footer #bar2 li {
+	display:inline-block;
+	margin-top:20px;
+	margin-bottom:20px;
+	list-style:none;
+	text-decoration:none;
+}
+
+.footer #bar2 li a{
+	text-decoration:none;
+	color:white;
+}
+
+li a:hover{
+	background-color:black;
+	color:white;
+	padding:10px;
+}
